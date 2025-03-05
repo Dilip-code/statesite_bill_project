@@ -24,3 +24,7 @@ jobs:
 
       - name: Push Docker Image
         run: docker push dilipdoc123/statesite_bill:latest
+
+      - name: Debug Secrets
+        run: echo "Checking secrets..."
+
